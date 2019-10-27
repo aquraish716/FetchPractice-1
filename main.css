@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(183, 218, 218);
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    size: 4px;
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+    margin: auto;
+    padding: 1px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+li {
+    margin: none;
+    padding: 2px;
+}
